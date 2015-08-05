@@ -1,0 +1,20 @@
+{
+  "name": "ta-site",
+  "version": "0.0.1",
+  "description": "[Ta] The Accomplished Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ajcumine@gmail.com",
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/ajcumine/ta-site"
+  },
+  "license": "Beerware",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  },
+  "engines" : { "node" : ">=0.10.3" }
+}
