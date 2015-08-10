@@ -1,0 +1,23 @@
+.menu {
+  text-align: center;
+  background-color: pink;
+  padding: 20px;
+}
+
+.menu__item {
+
+}
+
+.menu-content {
+
+}
+
+.menu-content div {
+  display: none;
+}
+
+.menu-content div:target {
+  padding: 20px;
+  background-color: purple;
+  display: block;
+}

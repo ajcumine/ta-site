@@ -1,4 +1,19 @@
 extend layout
 block content
-  p
-    | about, contact, videos
+  .menu
+    a(class='menu__item' href='#about') about
+    a(class='menu__item' href='#contact-us') contact us
+    a(class='menu__item' href='#videos') videos
+
+  .menu-content
+    #about
+      h3 about
+      p stuff about the guild
+
+    #contact-us
+      h3 contact us
+      p contact info for officers/guild leaders
+
+    #videos
+      h3 videos
+      p videos of guild dungeon and fractal runs

@@ -1,0 +1,10 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'menu.css';
+
+.container {
+  margin: 60px auto;
+  max-width: 976px;
+  background-color: palegoldenrod;
+  padding: 20px;
+}
