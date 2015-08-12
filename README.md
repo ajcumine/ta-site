@@ -2,6 +2,8 @@
 
 Initial website for _[Ta] The Accomplished_.
 
+Hosted on [Heroku](http://the-accomplished.herokuapp.com).
+
 Made with Node using:
 
 * [Express](http://expressjs.com/) webserver for routing
