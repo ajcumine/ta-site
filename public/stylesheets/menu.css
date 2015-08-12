@@ -7,11 +7,15 @@
 
 .menu__item {
   font-size: 1.2em;
-  margin: 0 20px;
+  margin: 0 10px;
+  padding: 18px 20px;
   text-decoration: none;
   color: #000;
 }
 
+.menu a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 .menu-content--wrapper {
   background-color: rgba(0, 0, 0, 0.1);
@@ -29,5 +33,19 @@
 
 .menu-content div:target {
   padding: 20px;
+  padding-bottom: 60px;
   display: block;
+}
+
+.menu-content h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu-content p {
+  margin-top: 20px;
+  line-height: 150%;
 }
