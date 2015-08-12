@@ -20,13 +20,3 @@ $ npm start
 ```
 
 The application will then be running on http://localhost:3000
-
-### To do
-
-- [ ] heading
-- [ ] menu interaction
-- [ ] about
-- [ ] contact
-- [ ] videos
-- [ ] general look and feel
-- [ ] styling

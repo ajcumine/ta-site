@@ -1,19 +1,45 @@
 header {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 20px;
   max-width: 976px;
   margin: 0 auto;
 }
 
 #header__emblem {
   display: inline-block;
-  width: 200px;
+  width: 60px;
 }
 
 #header__title {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-size: 3em;
+  font-size: 1.5em;
   vertical-align: top;
-  margin-top: 85px;
+  margin-top: 20px;
+}
+
+@media (min-width: 480px) {
+  #header__emblem {
+    width: 140px;
+  }
+
+  #header__title {
+    font-size: 2em;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 720px) {
+  header {
+    padding-top: 40px;
+  }
+
+  #header__emblem {
+    width: 200px;
+  }
+
+  #header__title {
+    font-size: 3em;
+    margin-top: 85px;
+  }
 }
