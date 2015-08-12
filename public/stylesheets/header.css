@@ -3,5 +3,17 @@ header {
   padding-top: 60px;
   max-width: 976px;
   margin: 0 auto;
-  background-color: lightblue;
+}
+
+#header__emblem {
+  display: inline-block;
+  width: 200px;
+}
+
+#header__title {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  vertical-align: top;
+  margin-top: 85px;
 }

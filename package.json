@@ -7,14 +7,17 @@
     "start": "node app.js"
   },
   "author": "ajcumine@gmail.com",
-  "repository" :
-  { "type" : "git",
-    "url" : "https://github.com/ajcumine/ta-site"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajcumine/ta-site"
   },
   "license": "Beerware",
   "dependencies": {
     "express": "^4.13.3",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "serve-favicon": "^2.3.0"
   },
-  "engines" : { "node" : ">=0.10.3" }
+  "engines": {
+    "node": ">=0.10.3"
+  }
 }
