@@ -2,7 +2,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 .menu__item {
@@ -21,7 +21,6 @@
 }
 
 .menu-content {
-  font-family: 'Roboto', sans-serif;
   max-width: 700px;
   margin: 0px auto;
 }
@@ -47,6 +46,7 @@
 .menu-content p {
   margin-top: 20px;
   line-height: 150%;
+  font-size: 1em;
 }
 
 @media (min-width: 480px) {
