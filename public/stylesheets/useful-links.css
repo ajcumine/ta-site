@@ -1,0 +1,31 @@
+ul#links {
+  text-align: center;
+}
+
+ul#links li {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+@media (min-width: 480px) {
+  ul#links li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.link__item {
+  width: 320px;
+  text-decoration: none;
+  color: #000;
+}
+
+.link__item__title {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.link__item__logo {
+  width: 320px;
+}

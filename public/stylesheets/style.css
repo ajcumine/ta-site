@@ -1,15 +1,17 @@
 @import 'reset.css';
 @import 'header.css';
 @import 'menu.css';
+@import 'useful-links.css';
 
 .container {
   margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 720px) {
   .container {
     padding: 20px;
-    max-width: 976px;
+    max-width: 1080px;
   }
 }
 
