@@ -16,8 +16,6 @@ ul#links li {
 
 .link__item {
   width: 320px;
-  text-decoration: none;
-  color: #000;
 }
 
 .link__item__title {

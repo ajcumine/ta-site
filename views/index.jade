@@ -34,3 +34,8 @@ block content
       #videos
         h3 videos
         p coming soon<sup>TM</sup>
+
+  script(type='text/javascript').
+    if (document.location.hash == '' || '#') {
+       document.location.hash = '#about'
+    }
